@@ -12,7 +12,6 @@ function App() {
       <Banner />
       <Header />
       <Pro/>
-      
     </div>
   );
 }
