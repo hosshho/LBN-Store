@@ -15,8 +15,8 @@ margin:10px 90px;
 .pro{
     width:250px;
     height:300px;
-    background-color: #d1d0d0;
     margin:50px 8px;
+    
 }
 .pro img{
     width:100%;
@@ -55,6 +55,16 @@ margin:10px 90px;
     background-color: #0e2638;
     transition: 0.2s;
 }
+.heart{
+    position:relative;
+    left:110px;
+    width:10px;
+    cursor:pointer;
+}
+.heart:hover{
+color:red;
+}
+
 
 /* small */
 @media (width <= 768px) {
