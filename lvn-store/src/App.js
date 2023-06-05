@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './header';
 import Banner from "./banner";
+import Pro from './pro';
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,8 @@ function App() {
       </div>
       <Banner />
       <Header />
+      <Pro/>
+      
     </div>
   );
 }
