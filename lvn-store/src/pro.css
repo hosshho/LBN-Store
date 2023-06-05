@@ -1,6 +1,7 @@
 .section{
     width:100%;
     height:500px;
+
 }
 .container{
 display:flex;
@@ -8,7 +9,8 @@ flex-wrap: wrap;
 }
 
 .h2{
-margin:10px 90px;}
+margin:10px 90px;
+}
 
 .pro{
     width:250px;
@@ -53,3 +55,25 @@ margin:10px 90px;}
     background-color: #0e2638;
     transition: 0.2s;
 }
+
+/* small */
+@media (width <= 768px) {
+    .h2{
+        margin:0px 90px;
+    }
+    .container .pro{
+        margin:50px 50px;
+    }
+  }
+  /* medium */
+  @media (width <= 992px){
+    .container .pro{
+     margin:50px 80px;
+
+}
+
+  }
+  /* large */
+  @media (width <= 1200px) {
+  }
+  
