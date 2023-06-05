@@ -25,7 +25,6 @@ return(
     <p>samsong s20</p>
     <p>2500$</p>
 </div>
-
 <div className="stars">
 
 <span><BsFillStarFill/></span>
